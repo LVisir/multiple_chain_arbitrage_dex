@@ -146,7 +146,7 @@ The ***ganache_nameOfBlockchain_with_fake_accounts*** is used to interact with t
 $ touch .env
 $ echo ".env" >> .gitignore
 ```
-* Inside the ```.env``` file, copy, paste and fill the following fields (check [.env](#.env) section for more details):
+* Inside the ```.env``` file, copy, paste and fill the following fields (check [.env](#env) section for more details):
 ```
 INFURA_POLYGON=
 MNEMONICS=
