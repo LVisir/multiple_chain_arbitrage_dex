@@ -154,6 +154,7 @@ MORALIS_KEY=
 BLOCKNATIVE_KEY=
 ```
 * On a prompt window open the db by typing ```npm run polygon_server``` (check package.json under scripts to see the commands to watch the db);
+* Inside the db, under the field ***ownerMainnetAddress*** put the address that you are using to deploy the contract;
 #### Forknet
 From here the steps are intended to make you try first on a forked network to get used with the project. Every operation it is not updating any data in the real blockchain.
 * On another prompt windows execute the command ```ganache-cli --port 8545 --fork <INFURA_KEY>``` where ```8545``` have to be the same port used for the blockchain networks (check ```truffle-config.js``` under ```ganache_polygon``` and ```ganache_polygon_with_fake_accounts```); the ```INFURA_KEY``` is the ```INFURA_POLYGON``` present inside the ```.env``` file; for each blockchain you have to create another key and another field inside ```.env``` and make the ```truffle-config.js``` pointing the same key; to understand if the command went through, you have to see like a list of accounts and on which port in running;
