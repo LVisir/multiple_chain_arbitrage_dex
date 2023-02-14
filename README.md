@@ -20,6 +20,7 @@ A solidity and node project to find and take advantage of the arbitrage opportun
  - [Technologies](#technologies)
  - [Setup](#setup)
  - [Test](#test)
+ - [Illustrations](#illustrations)
  - [Project Status](#project-status)
  - [Links](#-links)
  
@@ -193,6 +194,11 @@ Here are listed the scripts to interact with the contract. On each command the `
 * Comment ```require(endBalance > startBalance, "Trade Reverted, No Profit Made");``` inside ```triangularDexArb(...)``` because you can't see the result of a function that is reverting his operations;
 * run ```truffle test --network <networkName>```;
 * the ***arbContract*** field in the db will be updated because every time you run the tests a new contract is deployed; if you are working on a forked network, migrate everytime the contracts so the address will be updated; if you are working on a real network, check always that this field correspond to the real address;
+## Illustrations
+
+The following picture shows the execution of the program:
+
+![](trade.PNG)
 ## Project status
 
 The idea behind this project is to allow an easy access to this world to the people interested to defi, solidity and web3 project, to start from a base where you can build your own strategy but also a challenge for myself to improve my skills and to share my ideas.
