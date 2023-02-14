@@ -4,8 +4,8 @@
       "id": 1,
       "AAVEPoolV3": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
       "AAVEPoolAddressProviderV3": "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb",
-      "ownerMainnetAddress": "0x263952b2a56C27eadbd824A19f95479f8f390662",
-      "arbContract": "0xa60c0495027115D0BEE6d4DcED89C207dB06B82c"
+      "ownerMainnetAddress": "",
+      "arbContract": ""
     }
   ],
   "tradeInfos": [
