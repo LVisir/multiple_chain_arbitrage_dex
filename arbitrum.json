@@ -1,0 +1,42 @@
+{
+  "addresses": [
+    {
+      "id": 1,
+      "AAVEPoolV3": "",
+      "AAVEPoolAddressProviderV3": "",
+      "ownerMainnetAddress": "",
+      "arbContract": ""
+    }
+  ],
+  "tradeInfos": [
+    {
+      "minBasisPoint": "",
+      "gasPrice": "",
+      "treshold": ""
+    }
+  ],
+  "routers": [
+    {
+      "dex": "",
+      "address": ""
+    }
+  ],
+  "asset": [
+    {
+      "symbol": "",
+      "decimals": "",
+      "address": "",
+      "id": 1
+    }
+  ],
+  "token": [
+    {
+      "symbol": "",
+      "decimals": "",
+      "address": "",
+      "id": 1
+    }
+  ],
+  "tokenPrices": [],
+  "tests": []
+}

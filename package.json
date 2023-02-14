@@ -1,0 +1,39 @@
+{
+  "name": "arbitrage_dex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "polygon_server": "json-server --watch polygon.json --port 8001",
+    "ethereum_server": "json-server --watch ethereum.json --port 8002",
+    "fantom_server": "json-server --watch fantom.json --port 8003",
+    "avalanche_server": "json-server --watch avalanche.json --port 8004",
+    "arbitrum_server": "json-server --watch arbitrum.json --port 8005",
+    "harmony_server": "json-server --watch harmony.json --port 8006",
+    "optimism_server": "json-server --watch optimism.json --port 8007"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aave/core-v3": "^1.17.1",
+    "@ganache/console.log": "^0.2.0",
+    "@moralisweb3/common-evm-utils": "^2.11.0",
+    "@openzeppelin/contracts": "^4.8.1",
+    "@truffle/hdwallet-provider": "^2.1.2",
+    "bigint-buffer": "^1.1.5",
+    "bignumber.js": "^9.1.1",
+    "bn.js": "^5.2.1",
+    "dotenv": "^16.0.3",
+    "json-server": "^0.17.1",
+    "moralis": "^2.11.0",
+    "node-fetch": "^2.6.8"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.6.1"
+  }
+}

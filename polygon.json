@@ -1,0 +1,231 @@
+{
+  "addresses": [
+    {
+      "id": 1,
+      "AAVEPoolV3": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+      "AAVEPoolAddressProviderV3": "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb",
+      "ownerMainnetAddress": "0x263952b2a56C27eadbd824A19f95479f8f390662",
+      "arbContract": "0xa60c0495027115D0BEE6d4DcED89C207dB06B82c"
+    }
+  ],
+  "tradeInfos": [
+    {
+      "minBasisPoint": "100",
+      "gasPrice": "5000000000",
+      "treshold": "2000000000000000000"
+    }
+  ],
+  "routers": [
+    {
+      "dex": "quickswap",
+      "address": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff"
+    },
+    {
+      "dex": "sushiswap",
+      "address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
+    },
+    {
+      "dex": "apeswap",
+      "address": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
+    },
+    {
+      "dex": "dfyn",
+      "address": "0xA102072A4C07F06EC3B4900FDC4C7B80b6c57429"
+    },
+    {
+      "dex": "elk",
+      "address": "0xf38a7A7Ac2D745E2204c13F824c00139DF831FFf"
+    },
+    {
+      "dex": "polycat",
+      "address": "0x94930a328162957FF1dd48900aF67B5439336cBD"
+    },
+    {
+      "dex": "meerkat",
+      "address": "0x51aBA405De2b25E5506DeA32A6697F450cEB1a17"
+    },
+    {
+      "dex": "honeyswap",
+      "address": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
+    },
+    {
+      "dex": "radioshack",
+      "address": "0xAf877420786516FC6692372c209e0056169eebAf"
+    }
+  ],
+  "asset": [
+    {
+      "symbol": "DAI",
+      "decimals": "18",
+      "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+      "id": 1
+    },
+    {
+      "symbol": "USDC",
+      "decimals": "6",
+      "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "id": 2
+    },
+    {
+      "symbol": "USDT",
+      "decimals": "6",
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "id": 3
+    },
+    {
+      "symbol": "WBTC",
+      "decimals": "8",
+      "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+      "id": 4
+    },
+    {
+      "symbol": "WETH",
+      "decimals": "18",
+      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "id": 5
+    },
+    {
+      "symbol": "WMATIC",
+      "decimals": "18",
+      "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "id": 6
+    },
+    {
+      "symbol": "AAVE",
+      "decimals": "18",
+      "address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+      "id": 7
+    },
+    {
+      "symbol": "GHST",
+      "decimals": "18",
+      "address": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+      "id": 8
+    },
+    {
+      "symbol": "DPI",
+      "decimals": "18",
+      "address": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
+      "id": 10
+    },
+    {
+      "symbol": "CRV",
+      "decimals": "18",
+      "address": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+      "id": 11
+    },
+    {
+      "symbol": "LINK",
+      "decimals": "18",
+      "address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+      "id": 13
+    }
+  ],
+  "token": [
+    {
+      "symbol": "DAI",
+      "decimals": "18",
+      "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+      "id": 1
+    },
+    {
+      "symbol": "USDC",
+      "decimals": "6",
+      "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "id": 2
+    },
+    {
+      "symbol": "USDT",
+      "decimals": "6",
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "id": 3
+    },
+    {
+      "symbol": "WBTC",
+      "decimals": "8",
+      "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+      "id": 4
+    },
+    {
+      "symbol": "WETH",
+      "decimals": "18",
+      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "id": 5
+    },
+    {
+      "symbol": "WMATIC",
+      "decimals": "18",
+      "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "id": 6
+    }
+  ],
+  "tokenPrices": [
+    {
+      "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+      "decimals": "18",
+      "price": "1.001487571332493",
+      "id": 1
+    },
+    {
+      "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "decimals": "6",
+      "price": "0.9998513140230109",
+      "id": 2
+    },
+    {
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "decimals": "6",
+      "price": "0.9997102104068936",
+      "id": 3
+    },
+    {
+      "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+      "decimals": "8",
+      "price": "22839.121997654336",
+      "id": 4
+    },
+    {
+      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "decimals": "18",
+      "price": "1628.1786587770355",
+      "id": 5
+    },
+    {
+      "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "decimals": "18",
+      "price": "1.2004665623020834",
+      "id": 6
+    },
+    {
+      "address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+      "decimals": "18",
+      "price": "85.87387890018277",
+      "id": 7
+    },
+    {
+      "address": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+      "decimals": "18",
+      "price": "1.1004123224635327",
+      "id": 8
+    },
+    {
+      "address": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
+      "decimals": "18",
+      "price": "91.30738451205218",
+      "id": 9
+    },
+    {
+      "address": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+      "decimals": "18",
+      "price": "1.0502150893748177",
+      "id": 10
+    },
+    {
+      "address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+      "decimals": "18",
+      "price": "6.966298891782192",
+      "id": 11
+    }
+  ],
+  "tests": []
+}
