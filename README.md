@@ -135,7 +135,7 @@ The ***ganache_nameOfBlockchain_with_fake_accounts*** is used to interact with t
 ## Technologies
 - Node 14.17.4
 - Ganache 7.5.0
-- Solidity 8.0.*
+- Solidity 0.8.*
 - Web3.js 1.7.4
 - Truffle 5.5.30
 ## Setup
